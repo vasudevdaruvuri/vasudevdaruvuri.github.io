@@ -1,3 +1,6 @@
+library(sqldf)
+library(tcltk)
+
 sampleDist = function(n) { 
     sample(x = c(0,1,2,3,4), n, replace = T, prob = c(0.1, 0.4, 0.3, 0.1,0.1)) 
 }
